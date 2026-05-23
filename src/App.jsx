@@ -1,7 +1,7 @@
 ﻿import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
-  BrowserRouter,
+   HashRouter,
   Link,
   Navigate,
   NavLink,
@@ -1641,6 +1641,8 @@ function App() {
     </HashRouter>
   );
 }
+
+
 
 export default App;
 
